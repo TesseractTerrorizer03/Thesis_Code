@@ -1,0 +1,20 @@
+{
+  "source": "Yahoo Finance through yfinance; adjusted sector closes and reported SPY volume",
+  "fetched_at_utc": "2026-10-24T20:51:06.796889+00:00",
+  "start": "2006-09-28",
+  "end_exclusive": "2026-09-02",
+  "sectors": [
+    "XLB",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLU",
+    "XLV",
+    "XLY"
+  ],
+  "rows": 5012,
+  "sha256": "562d037875397d00ccffacf4bfd4cd367da5677140449b8f81dd574024a96f6d",
+  "note": "Fixed sector-ETF panel, not constituent-level stock breadth. Current-vintage adjusted prices; historical sector definitions change."
+}

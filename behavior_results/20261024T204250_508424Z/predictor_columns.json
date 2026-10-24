@@ -1,0 +1,44 @@
+{
+  "context": [
+    "log_intensity",
+    "direction_reliable",
+    "realized_volatility",
+    "log_VIX_level",
+    "credit_spread_level",
+    "market_drawdown"
+  ],
+  "raw_context": [
+    "signal_US_equity",
+    "signal_Developed_equity",
+    "signal_Emerging_equity",
+    "signal_Credit_improvement",
+    "signal_Volatility_improvement",
+    "log_intensity",
+    "direction_reliable",
+    "realized_volatility",
+    "log_VIX_level",
+    "credit_spread_level",
+    "market_drawdown"
+  ],
+  "direction_context": [
+    "direction_US_equity",
+    "direction_Developed_equity",
+    "direction_Emerging_equity",
+    "direction_Credit_improvement",
+    "direction_Volatility_improvement",
+    "log_intensity",
+    "direction_reliable",
+    "realized_volatility",
+    "log_VIX_level",
+    "credit_spread_level",
+    "market_drawdown"
+  ],
+  "direction_only": [
+    "direction_US_equity",
+    "direction_Developed_equity",
+    "direction_Emerging_equity",
+    "direction_Credit_improvement",
+    "direction_Volatility_improvement",
+    "direction_reliable"
+  ]
+}

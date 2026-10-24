@@ -1,0 +1,72 @@
+{
+  "config": {
+    "lookback": 21,
+    "vol_window": 63,
+    "forecast_horizon": 21,
+    "label_threshold": 0.5,
+    "realized_vol_window": 21,
+    "drawdown_window": 63,
+    "holdout_size": 756,
+    "outer_splits": 3,
+    "validation_size": 252,
+    "outer_min_train": 1000,
+    "inner_splits": 2,
+    "inner_validation_size": 126,
+    "inner_min_train": 1000,
+    "families": [
+      "linear",
+      "nonlinear"
+    ],
+    "primary_family": "nonlinear",
+    "logistic_C": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "logistic_max_iter": 2000,
+    "tree_leaves": [
+      7,
+      15
+    ],
+    "tree_iterations": 100,
+    "tree_min_leaf": 40,
+    "bootstrap_block": 42,
+    "n_bootstrap": 1000,
+    "alpha": 0.05,
+    "min_daily_scale": 1e-10,
+    "min_direction_norm": 1e-08,
+    "seed": 42
+  },
+  "holdout_start": "2023-08-25 00:00:00",
+  "final_test_enabled": false,
+  "hypothesis": "Direction improves forward outcome probabilities over context and raw signals/context",
+  "primary_comparisons": [
+    "direction_context vs context",
+    "direction_context vs raw_context"
+  ],
+  "inputs": {
+    "market": {
+      "path": "/Users/shashwatroy/VSCode Projects/Thesis/data/market_features.csv",
+      "sha256": "2b99c93dfae076aca2119c42c599118514c40cef7bd011a762d14bee90e036d8"
+    },
+    "prices": {
+      "path": "/Users/shashwatroy/VSCode Projects/Thesis/data/market_prices.csv",
+      "sha256": "b144a322202b22c1bf551e338ed15f3acdb8d80bb5e29a640b7e8d4badd6207a"
+    },
+    "levels": {
+      "path": "/Users/shashwatroy/VSCode Projects/Thesis/data/market_levels.csv",
+      "sha256": "9ef03ac828c0d9d3c7b726de5592ae8e0cf211f97d08bf223dcc8b3c161d19e2"
+    }
+  },
+  "code_sha256": {
+    "behavior_features.py": "354a45620b0724b182d249f0a931b97b3ec4c80f0c1b8a94f99505909cef37d4",
+    "behavior_validation.py": "0cc84661df26112747d1595b2879ab7539531d059cc24fb16ef5cdf2e2fcb455"
+  },
+  "versions": {
+    "python": "3.11.13",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "sklearn": "1.9.1"
+  }
+}

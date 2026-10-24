@@ -1,0 +1,109 @@
+{
+  "config": {
+    "features": [
+      "DBC",
+      "EEM",
+      "EFA",
+      "SPY",
+      "SMB",
+      "HML",
+      "RMW",
+      "CMA",
+      "Mom",
+      "d_10Y_Yield",
+      "d_Yield_Curve",
+      "d_Credit_Spread",
+      "d_Inflation_Exp",
+      "d_log_VIX"
+    ],
+    "seed_subsets": {
+      "ETF": [
+        "DBC",
+        "EEM",
+        "EFA",
+        "SPY"
+      ],
+      "Factors": [
+        "SMB",
+        "HML",
+        "RMW",
+        "CMA",
+        "Mom"
+      ],
+      "Macro": [
+        "d_10Y_Yield",
+        "d_Yield_Curve",
+        "d_Credit_Spread",
+        "d_Inflation_Exp",
+        "d_log_VIX"
+      ]
+    },
+    "search_mode": "seed_neighbors",
+    "subset_pool": [
+      "DBC",
+      "EEM",
+      "EFA",
+      "SPY",
+      "SMB",
+      "HML",
+      "RMW",
+      "CMA",
+      "Mom",
+      "d_10Y_Yield",
+      "d_Yield_Curve",
+      "d_Credit_Spread",
+      "d_Inflation_Exp",
+      "d_log_VIX"
+    ],
+    "subset_sizes": [
+      3,
+      4
+    ],
+    "pca_dimensions": [
+      null,
+      3
+    ],
+    "max_candidates": 120,
+    "scaling": "standard",
+    "holdout_size": 756,
+    "n_splits": 3,
+    "validation_size": 252,
+    "gap": 0,
+    "min_train_size": 1000,
+    "fit_max_points": 400,
+    "sphere_max_nfev": 150,
+    "ellipsoid_max_nfev": 100,
+    "max_radius_rms": 2.0,
+    "max_center_rms": 1.5,
+    "max_resultant": 0.6,
+    "max_relative_shell_rmse": 0.15,
+    "min_angular_span": 0.05,
+    "ellipsoid_shortlist": 3,
+    "ellipsoid_margin": 0.1,
+    "null_families": [
+      "phase",
+      "volatility_phase"
+    ],
+    "n_surrogates": 19,
+    "volatility_window": 20,
+    "alpha": 0.05,
+    "bootstrap_block": 20,
+    "n_bootstrap": 500,
+    "seed": 42,
+    "progress_every": 5
+  },
+  "selected": null,
+  "holdout_start": "2023-08-25 00:00:00",
+  "source_sha256": "2b99c93dfae076aca2119c42c599118514c40cef7bd011a762d14bee90e036d8",
+  "code_sha256": {
+    "geometry.py": "ab4224ce1ef79dbf03e226d2707ba6d2dec30b4acaf44188ce36f27e832ff3e2",
+    "experiment.py": "b49cf37f143ab5e3dd429964624ca708b0679d1e2956f9020110e406a684c551"
+  },
+  "versions": {
+    "python": "3.11.13",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "sklearn": "1.9.1"
+  }
+}

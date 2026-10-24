@@ -1,0 +1,4 @@
+fold,training_rows,purged_rows,train_start,train_end,last_training_label_end,validation_start,validation_end,validation_rows
+1,3393,21,2006-12-29,2020-06-23,2020-07-23,2020-07-24,2021-07-23,252
+2,3645,21,2006-12-29,2021-06-23,2021-07-23,2021-07-26,2022-07-25,252
+3,3897,21,2006-12-29,2022-06-23,2022-07-25,2022-07-26,2023-07-26,252

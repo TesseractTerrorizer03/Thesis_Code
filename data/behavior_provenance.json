@@ -1,0 +1,10 @@
+{
+  "market_prices.csv": {
+    "source": "/Users/shashwatroy/VSCode Projects/RegimeDetection/market_regime_prices.csv",
+    "sha256": "b144a322202b22c1bf551e338ed15f3acdb8d80bb5e29a640b7e8d4badd6207a"
+  },
+  "market_levels.csv": {
+    "source": "/Users/shashwatroy/VSCode Projects/RegimeDetection/market_regime_levels.csv",
+    "sha256": "9ef03ac828c0d9d3c7b726de5592ae8e0cf211f97d08bf223dcc8b3c161d19e2"
+  }
+}

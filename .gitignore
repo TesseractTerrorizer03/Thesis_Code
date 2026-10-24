@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.cache/
+.venv/
+.ipynb_checkpoints/
+Bullish_Bearish_Directional_Validation.ipynb
