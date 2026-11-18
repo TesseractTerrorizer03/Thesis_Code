@@ -3,4 +3,18 @@ __pycache__/
 .cache/
 .venv/
 .ipynb_checkpoints/
-Bullish_Bearish_Directional_Validation.ipynb
+.DS_Store
+.pytest_cache/
+.matplotlib/
+*.tmp
+*.log
+
+# Reconstructible research inputs, fits, and exported reports.
+/data/
+/results/
+/GMM/data/
+/GMM/outputs/
+/spherical_umap_results/
+/umap_mixture_results/
+/behavior_results/
+/trend_geometry_results/
